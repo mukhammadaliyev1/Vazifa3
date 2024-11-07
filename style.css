@@ -31,6 +31,10 @@ header{
     color: white;
 
 }
+.hrefs a:hover{
+    transition: all 0.4s;
+    color:red;
+}
 .for-flex{
     display: flex;
     gap: 80px;
@@ -47,6 +51,20 @@ header{
     color: white;
     background: inherit;
     border-color:  white   ;
+}
+.header-container button:hover{
+    transition: all 0.6s;
+    background-color: #fff;
+    color: #000;
+}
+
+.header-container button a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.header-container button a:hover{
+    color: #000;
 }
 .flex-header{
     display: flex;
@@ -361,4 +379,9 @@ color: white ;
     display: flex;
     flex-direction: column;
     gap: 52px;
+}
+
+.to-contact{
+    text-decoration: none;
+    color: black;
 }
