@@ -353,6 +353,13 @@ color: white ;
     gap: 25px;
 
 }
+
+.flexfooter{
+    display: flex;
+    gap: 100px;
+}
+
+
 .col h1{
     color: white;
 }
@@ -384,4 +391,163 @@ color: white ;
 .to-contact{
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 768px) {
+    
+.header-container{
+    max-width: 689px;
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-words{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0; 
+    text-align: center;
+  }
+ .rectangle{
+    display: none;
+ }
+
+.find{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 685px;
+    margin-top: 120px;
+    align-items: center;
+}
+.for-img img{
+    margin-left: 200px;
+}
+
+.main-container{
+    max-width: 573px;
+    width: 100%;
+    flex-direction: column;
+    gap: 64px;
+    
+}
+.main-flex{
+    max-width: 517px;
+}
+.result{
+    max-width: 517px;
+    width: 100%;
+    gap: 20px;
+}
+.user-flex{
+    margin-top: 20px;
+    gap: 23px
+    ;
+    width: 517px;
+}
+.btimg{
+    margin-left:500px;
+    margin-top: -645px;
+    width: 100px;
+    height: 200px;
+}
+
+.rect h1{
+    width: 445px;
+    font-size: 32px;
+}
+.main img{
+    display: none;
+}
+.find h1{
+    width: 383px;
+    font-size: 64px;
+    text-align: center;
+}
+
+.delivering-container{
+    max-width: 573px;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+}
+.desc-users{
+    flex-direction: column;
+    gap: 120px;
+    align-items: center;
+}
+.delivering{
+    padding-left: 100px;
+}
+.fimg{
+    margin-left: 180px;
+}
+.kady{
+    margin-left:0px;
+    margin-top: 0;
+}
+.sign1{
+    margin-left: -20px;
+    margin-top: -800px;
+}
+.sign2{
+    margin-left: -10px;
+    /* margin-top: -10px; */
+}
+.sign{
+    margin-left: -10px;
+    margin-top: -520px;
+}
+.deliver{
+    width: 573px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.footerly-container{
+max-width: 768px;
+width: 100%;
+padding-left: 0;
+
+}
+.bottomimg{
+    width: 200px;
+    height: 170px;
+
+    margin-top: 87px;
+    display: none;
+}
+.flx{
+    width: 517px;
+    margin-left: 0;
+    margin-left: 0;
+    display: flex;
+    margin-right: 100px;
+    margin-left: -180px;
+    gap: 40px;
+}
+.flx h1{
+    width: 336px;
+    font-size: 32px;
+}
+
+.footer{
+    padding-left: 0;
+    padding-right: 0;
+}
+.footer-container{
+    max-width: 689px;
+    width: 100%;
+    flex-direction: column;
+}
+.flexfooter{
+    display: flex;
+
+}
+.right{
+    display: flex;
+
+}
 }
